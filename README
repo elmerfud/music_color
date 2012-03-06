@@ -1,0 +1,10 @@
+This is the Color Organ / Spectrum Analyzer from
+http://fftarduino.blogspot.com/2011/02/color-organ-spectrum-analyzer-on.html
+
+It implements fixed point fft on the Arduino.  Currently it outputs to an 
+LED strip and lights up a series of red blue and green depending on frequency
+range. 
+
+Audio input is expected on A0.  You can use something like http://www.sparkfun.com/products/9964 or http://www.sparkfun.com/products/9868 or just build your own offset circut with a mic or line in.  
+
+
